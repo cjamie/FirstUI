@@ -11,6 +11,7 @@ struct ByeView: View {
     var body: some View {
         Text("Bye bye, world!")
             .padding()
+            .accentColor(.blue)
     }
 }
 
@@ -28,3 +29,4 @@ struct ByeView_Previews2: PreviewProvider {
         ContentView()
     }
 }
+
